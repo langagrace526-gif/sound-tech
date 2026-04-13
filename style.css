@@ -56,8 +56,8 @@ body {
 .hero h1 {
   font-size: 70px;
   font-weight: 800;
-  background: linear-gradient(90deg, var(--neon-violet), var(--neon-pink));
-  -webkit-background-clip: text;
+  background: linear-gradient(90deg, var(neon-violet), var(neon-pink));
+  webkit-background-clip: text;
   color: transparent;
   text-shadow: 0 0 25px rgba(255, 47, 209, 0.6);
 }
@@ -77,7 +77,7 @@ body {
   border: none;
   font-weight: 600;
   cursor: pointer;
-  background: linear-gradient(90deg, var(--neon-violet), var(--neon-pink));
+  background: linear-gradient(90deg, var(neon-violet), var(neon-pink));
   color: white;
   transition: 0.4s;
   box-shadow: 0 0 20px rgba(255, 47, 209, 0.6);
