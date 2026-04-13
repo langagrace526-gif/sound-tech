@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap');
+
+:root {
+  dark-bg: #0f001a;
+  deep-purple: #1a0033;
+  neon-violet: #a100ff;
+  neon-pink: #ff2fd1;
+  white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at center, var(--deep-purple), var(--dark-bg));
+  color: var(--white);
+}
+
+/* ===== NAVBAR ===== */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 50px;
+}
+
+.logo {
+  width: 60px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: var(--white);
+  margin-left: 25px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: var(--neon-pink);
+  text-shadow: 0 0 10px var(--neon-pink);
+}
+
+/* ===== HERO SECTION ===== */
+
+.hero {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.hero h1 {
+  font-size: 70px;
+  font-weight: 800;
+  background: linear-gradient(90deg, var(--neon-violet), var(--neon-pink));
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 25px rgba(255, 47, 209, 0.6);
+}
+
+.hero p {
+  margin-top: 20px;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+/* ===== BUTTON ===== */
+
+.hero button {
+  margin-top: 30px;
+  padding: 15px 40px;
+  border-radius: 50px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  background: linear-gradient(90deg, var(--neon-violet), var(--neon-pink));
+  color: white;
+  transition: 0.4s;
+  box-shadow: 0 0 20px rgba(255, 47, 209, 0.6);
+}
+
+.hero button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px rgba(255, 47, 209, 0.9);
+}
+
+/* ===== MUSIC CARDS ===== */
+
+.music {
+  margin-top: 150px;
+  padding: 0 50px;
+}
+
+.music h2 {
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+
+.card:hover {
+  background: rgba(161, 0, 255, 0.15);
+  box-shadow: 0 0 30px rgba(161, 0, 255, 0.5);
+}
